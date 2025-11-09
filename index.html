@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viagens: Rotas do Interior Paranaense</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#destinos">Regiões</a></li>
+        <li><a href="#tripme">Planeje Já</a></li>
+        <li><a href="#advice">Conselhos</a></li>
+        <li><a href="#meetus">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="banner">
+      <h1>Descubra o charme único das Rotas do Interior Paranaense</h1>
+      <p class="subtitle">Aventura, cultura e natureza esperam por você!</p>
+      <a href="#tripme" class="cta-button">Comece a Planejar sua Rota!</a>
+    </section>
+  </main>
+
+  <section id="destinos">
+    <h2>✨ Conheça as Rotas do Paraná por Região ✨</h2>
+    <p class="section-description">As Regiões Turísticas oferecem ao turista uma estimulante jornada, seja qual for
+      seu perfil. São elas: Campos Gerais e Serra do Mar, a Terra dos Pinheirais - Centro-Sul,
+      Interior Norte e Rota do Café, Riquezas do Oeste, Vales do Iguaçu,
+      Cataratas do Iguaçu e Caminhos ao Lago de Itaipu.</p>
+
+    <div class="destinations-container">
+
+      <article class="region-card">
+        <h3>Campos Gerais e Serra do Mar</h3>
+        <p>A rota do charme e da história. Explore Vila Velha (Ponta Grossa) e o sabor do Barreado em Morretes. No
+          século XVIII era passagem de inúmeros rebanhos de gado e tropeiros que percorriam o Caminho do Viamão, desde o
+          Rio Grande do Sul até as feiras de São Paulo.</p>
+        <ul>
+          <li>Destaques: Ponta Grossa, Morretes, Lapa, Tibagi (Cânion Guartelá).</li>
+        </ul>
+      </article>
+
+      <article class="region-card">
+        <h3>Oeste e Fronteira (Tríplice)</h3>
+        <p>Aventure-se na região turística Cataratas do Iguaçu e Caminhos ao Lago de Itaipu. A exuberância do Parque
+          Nacional do Iguaçu, onde a beleza e magnitude das Cataratas se perpetua,
+          atraindo milhares de turistas brasileiros e estrangeiros e a Usina Hidrelétrica de Itaipu.</p>
+        <ul>
+          <li>Destaques: Foz do Iguaçu, Cascavel, Toledo, Medianeira.</li>
+        </ul>
+      </article>
+
+      <article class="region-card">
+        <h3>Interior Norte e Rota do Café</h3>
+        <p>Conheça a história da expansão cafeeira. Possui fortes marcas da cultura japonesa e de outros povos (árabes,
+          alemãs, italianos e portugueses). O visitante encontrará empreendimentos com tecnologia de ponta em contraste
+          com propriedades rurais onde a agropecuária tem presença marcante.</p>
+        <ul>
+          <li>Destaques: Londrina, Maringá, Cambará, Apucarana.</li>
+        </ul>
+      </article>
+
+      <article class="region-card">
+        <h3>Centro-Sul e Grandes Quedas</h3>
+        <p>A região é marcada pelos costumes tradicionalistas dos tropeiros, preservando a tradição campeira recorrente
+          em pousadas rurais, cavalgadas e eventos. Também resguarda sua colonização européia, principalmente dos
+          alemães, que se instalaram e formaram a Colônia de Entre Rios, em Guarapuava. A região possui inúmeras
+          hidrelétricas no Rio Iguaçu que formam imensos lagos, favorecendo a prática de esportes náuticos e a pesca.
+        </p>
+        <ul>
+          <li>Destaques: Quedas do Iguaçu, General Carneiro, Guarapuava.</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="tripme" class="form-section">
+    <h2>✈️ Minha Viagem: Planeje Agora!</h2>
+    <p>Preencha para receber um **roteiro personalizado** e exclusivo de acordo com a sua região de interesse.</p>
+
+    <form class="trip-form">
+      <div class="form-group">
+        <label for="name">Nome Completo:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="interest">Região de Interesse Principal:</label>
+        <select id="interest" name="interest">
+          <option value="" disabled selected>Selecione uma região</option>
+          <option value="campos-gerais">Campos Gerais e Serra do Mar</option>
+          <option value="oeste">Oeste e Fronteira</option>
+          <option value="norte">Interior Norte e Café</option>
+          <option value="centro-sul">Centro-Sul e Grandes Quedas</option>
+        </select>
+      </div>
+      <button type="submit" class="submit-button">Quero Receber Meu Roteiro!</button>
+    </form>
+  </section>
+
+  <section id="advice">
+    <h2>💡 Conselhos Essenciais de Viagem</h2>
+    <p>Preparar-se é a chave para uma aventura inesquecível! Nossos guias locais reuniram informações essenciais
+      sobre clima, transporte e cultura para que você aproveite cada momento das Rotas do Paraná com tranquilidade.</p>
+
+    <div class="advice-container">
+      <article class="advice-topic">
+        <h3>👕 O Que Levar na Mala (Clima)</h3>
+        <ul>
+          <li>Roupas em Camadas: O clima é variável. Manhãs e noites são frias, mesmo no verão, especialmente nas
+            regiões serranas e dos Campos Gerais. Inclua sempre um casaco corta-vento.</li>
+          <li>Calçados: Priorize calçados confortáveis e próprios para caminhada, especialmente se for explorar
+            trilhas e cachoeiras na Serra do Mar e no Oeste.</li>
+          <li>Proteção: Protetor solar é indispensável para as Cataratas, e repelente é essencial para as áreas de
+            mata e rios.</li>
+        </ul>
+      </article>
+
+      <article class="advice-topic">
+        <h3>💰 Roteiro e Logística</h3>
+        <ul>
+          <li>Carro Próprio: Ter um carro é altamente recomendado para explorar a maioria das rotas do interior
+            (Norte e Oeste) com flexibilidade e acessar atrações rurais.</li>
+          <li>Pedágios: Planeje os custos, pois o Paraná possui muitas rodovias pedagiadas. Verifique as tarifas e
+            planeje seu trajeto com antecedência.</li>
+          <li>Hospedagem: Prefira pousadas e hotéis-fazenda fora dos centros urbanos para uma experiência mais
+            autêntica e preços mais acessíveis.</li>
+        </ul>
+      </article>
+
+      <article class="advice-topic">
+        <h3>🍽️ Sabores do Paraná</h3>
+        <ul>
+          <li>Barreado: Não deixe de provar o prato típico do litoral, especialmente em Morretes. É cozido por horas
+            e servido com farinha e banana.</li>
+          <li>Pinhão: Prove pratos à base de pinhão (na época da colheita, de abril a julho) nas regiões mais frias
+            e o tradicional bolinho de carne de onça em Curitiba.</li>
+          <li>Rota do Café: No Interior Norte, visite fazendas históricas e deguste cafés especiais diretamente da
+            produção.</li>
+        </ul>
+      </article>
+    </div>
+
+  </section>
+
+  <section id="meetus" class="contact-section">
+    <h2>🗺️ Nos Encontre (Curitiba/PR)</h2>
+    <p>Estamos sediados na capital paranaense e prontos para desenhar a sua aventura. Fale conosco!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rotas do Paraná - Landing Page. Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
